@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 621600f6d608ab64dbaa945cc7944078, type: 3}
+  m_Name: 5_Autisme
+  m_EditorClassIdentifier: 
+  controlNumber: 5
+  name: Autisme
+  description: "Sommige mensen vinden mij wat ongewoon. Misschien heb ik wat eigenaardige
+    humor en ben ik vaak lekker mezelf (maar hey, da\u2019s best leuk toch!?). Ik
+    durf van alles en heb veel kennis van dingen die mij boeien. Als iets nog niet
+    duidelijk is voor mij, blijf ik er maar over nadenken. Mijn hoofd raakt overvol
+    van allerlei gebeurtenissen op een dag. Bij een teveel aan prikkels trek ik me
+    terug, ik heb dan tijd en rust voor mezelf nodig om alle informatie te verwerken."
+  icon: {fileID: 21300000, guid: 30848b8ad6de04f4f8ab25091337ba54, type: 3}
+  characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
+    type: 3}

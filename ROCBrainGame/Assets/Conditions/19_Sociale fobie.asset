@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 621600f6d608ab64dbaa945cc7944078, type: 3}
+  m_Name: 19_Sociale fobie
+  m_EditorClassIdentifier: 
+  controlNumber: 19
+  name: Sociale fobie
+  description: Op de basisschool ging ik graag naar school. Nu niet meer, ik denk
+    alleen maar aan wat ze wel niet van me zullen denken. Ik ben bang om mensen te
+    kwetsen of te beledigen omdat ze dan negatief over me gaan denken. Ik ben bang
+    voor spreekbeurten, voor feedback, voor alles waar ik in de aandacht sta van
+    een groep. Ik ben heel erg goed geworden in smoesjes verzinnen om onder feestjes
+    uit te komen. Maar daarna schaam ik me dan weer voor het smoesje en denk ik dat
+    ze me wel nooit meer zullen uitnodigen.
+  icon: {fileID: 21300000, guid: 30848b8ad6de04f4f8ab25091337ba54, type: 3}
+  characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
+    type: 3}

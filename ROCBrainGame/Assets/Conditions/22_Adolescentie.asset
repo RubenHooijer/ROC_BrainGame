@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 621600f6d608ab64dbaa945cc7944078, type: 3}
+  m_Name: 22_Adolescentie
+  m_EditorClassIdentifier: 
+  controlNumber: 22
+  name: Adolescentie
+  description: Soms ben ik dertien, soms twintig. Vrienden zijn vet belangrijk voor
+    me. Feestjes in de stad, instagramstories maken, experimenteren met haar- en
+    kledingstijlen, ik doe het allemaal. Die ouders van mij? Ze zijn echt best lief
+    hoor, maar ook een beetje suf en we zijn het de laatste tijd niet zo eens. Nouja,
+    als ik niet uit bed kan komen moeten ze me inderdaad een paar keer roepen, maar
+    ik ben dan ook zo moe. Nog 10 seconden en dan ga ik mijn bed uit 1,2,3,4,5,6,7,8,8,9,9,9,9,9,9.....
+  icon: {fileID: 21300000, guid: 30848b8ad6de04f4f8ab25091337ba54, type: 3}
+  characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
+    type: 3}

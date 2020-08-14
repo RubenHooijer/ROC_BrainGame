@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 621600f6d608ab64dbaa945cc7944078, type: 3}
+  m_Name: 10_Verliefdheid
+  m_EditorClassIdentifier: 
+  controlNumber: 10
+  name: Verliefdheid
+  description: WOW, WOW, WOW. Wat overkomt mij nu!? Die glimlach gaat niet van mijn
+    gezicht. Fluitend op mijn fietsje door de stad. Als ik aan je denk, word ik warm
+    van binnen en kan ik even nergens anders meer aan denken. Spannend hoor en onzeker
+    maakt het me ook wel. Dit gevoel is zo groot en gaaf en eng tegelijk. Want voel
+    jij dit eigenlijk ook voor mij?
+  icon: {fileID: 21300000, guid: 30848b8ad6de04f4f8ab25091337ba54, type: 3}
+  characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
+    type: 3}

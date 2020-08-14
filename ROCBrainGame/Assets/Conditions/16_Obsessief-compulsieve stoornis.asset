@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 621600f6d608ab64dbaa945cc7944078, type: 3}
+  m_Name: 16_Obsessief-compulsieve stoornis
+  m_EditorClassIdentifier: 
+  controlNumber: 16
+  name: Obsessief-compulsieve stoornis
+  description: "Voor ik de deur uit ga tel ik de haken van de kapstok in de gang.
+    Voor ik de trein in ga stap ik in, uit, in en uit, in, 3 maal in en 2 maal uit,
+    altijd hetzelfde. Als ik daar geen tijd voor heb of geen ruimte dan mis ik de
+    trein. Ook heb ik vaak een gedachte die ik dan moet volgen, bijvoorbeeld dat
+    ik alle muren moet aanraken in het lokaal waar ik les heb. Ik doe dit dan zo
+    onopvallend mogelijk maar als ik het niet doe kan ik me de hele les niet concentreren.
+    Sinds ik hierover heb gepraat met een klasgenoot die ik vertrouw vind ik het
+    al minder erg en heb ik minder vaak zo\u2019n opdringerige gedachte."
+  icon: {fileID: 21300000, guid: 30848b8ad6de04f4f8ab25091337ba54, type: 3}
+  characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
+    type: 3}
