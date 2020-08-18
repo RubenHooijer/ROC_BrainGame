@@ -6351,25 +6351,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f635eb6c8b7abd34fa13c2fe07a93ddd, type: 2}
   - {fileID: 11400000, guid: 9dd9b60653f40eb4cbfa3dd7f57dbb40, type: 2}
   - {fileID: 11400000, guid: 0266cdd54580ad348a4d5822bb64f5e3, type: 2}
-  - {fileID: 11400000, guid: a0cc504d3365f2943bc840f3d2bdab24, type: 2}
-  - {fileID: 11400000, guid: 5588774a457977b48b0d5bb05873dc9c, type: 2}
-  - {fileID: 11400000, guid: a63c48799e606714584e898bcab7a0c9, type: 2}
-  - {fileID: 11400000, guid: 02d406ceaefe1f046abde4626e8d3f13, type: 2}
-  - {fileID: 11400000, guid: 3de7b035220161e4c838d60410e949a3, type: 2}
-  - {fileID: 11400000, guid: 8846671d542778748b5d241a2949743e, type: 2}
-  - {fileID: 11400000, guid: 4b9ddccdd52450948a8fb09760081773, type: 2}
-  - {fileID: 11400000, guid: 0b513c4bdd07fa04da5da644a2d8cffb, type: 2}
-  - {fileID: 11400000, guid: 437af63e90bed634fb92d42befe1e85b, type: 2}
-  - {fileID: 11400000, guid: 90aab97fd97c22043a27b1b7deb1edbc, type: 2}
-  - {fileID: 11400000, guid: 6caea28c9d8deda41bbc97a8e826ab39, type: 2}
-  - {fileID: 11400000, guid: 2ef1ae2084fc3f44292b57964fa39cc7, type: 2}
-  - {fileID: 11400000, guid: 14019ef4237c2b9449a4cc1e7327f1ee, type: 2}
-  - {fileID: 11400000, guid: e4845d9eceec33f46bd578096d72f4d0, type: 2}
-  - {fileID: 11400000, guid: e31db9a6e78be774c8da3e3e6e34924e, type: 2}
-  - {fileID: 11400000, guid: 26e9cc315399b3c4989a2a35731d2cd5, type: 2}
-  - {fileID: 11400000, guid: c7dc5a5c0df6e794a9e439992443c94f, type: 2}
-  - {fileID: 11400000, guid: b187a06bf593b5a47955ed807d39f738, type: 2}
-  - {fileID: 11400000, guid: 03615f84ec77b0f48b2df3364a333caf, type: 2}
   gamePanel: {fileID: 1108584762}
   positiveTransitionPanel: {fileID: 1814156089}
   negativeTransitionPanel: {fileID: 476671400}

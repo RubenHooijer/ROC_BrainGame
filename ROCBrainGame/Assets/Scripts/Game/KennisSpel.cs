@@ -94,7 +94,7 @@ public class KennisSpel : MonoBehaviour
     {
         Debug.Log("POSITIVE transition");
         UIManager.Instance.OpenPanel(positiveTransitionPanel);
-        if (conditionsSeen < allConditions.Length)
+        if ((conditionsSeen + 1) < allConditions.Length)
         {
             UIManager.Instance.NextPanel = gamePanel;
         } else
@@ -110,7 +110,7 @@ public class KennisSpel : MonoBehaviour
         wrongConditions.Add(currentCondition.name);
         negativeTransitionPanel.ChangeHeader(currentCondition.name);
         UIManager.Instance.OpenPanel(negativeTransitionPanel);
-        if (currentFaults < maxFaults)
+        if (currentFaults < maxFaults && ((conditionsSeen + 1) < allConditions.Length))
         {
             UIManager.Instance.NextPanel = gamePanel;
         } else
