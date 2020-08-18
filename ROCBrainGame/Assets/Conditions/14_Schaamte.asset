@@ -21,6 +21,6 @@ MonoBehaviour:
     handen en rollen al mijn spullen op de grond. Ik weet dan niet waar ik kijken
     moet en probeer dan zo \u2018onzichtbaar\u2019 mogelijk alles op te rapen. Maar
     wel met een kop als een boei."
-  icon: {fileID: 21300000, guid: 30848b8ad6de04f4f8ab25091337ba54, type: 3}
+  icon: {fileID: -299148188451899570, guid: 4543b051336ac7c4e9f72ba8610ca445, type: 3}
   characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
     type: 3}

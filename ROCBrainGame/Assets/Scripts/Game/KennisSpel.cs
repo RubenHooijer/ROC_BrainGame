@@ -54,6 +54,7 @@ public class KennisSpel : MonoBehaviour
             Debug.Log("You have seen all conditions");
             //Show results
             SetupResults();
+            UIManager.Instance.OpenPanel(resultPanel);
             return;
         }
 
@@ -92,9 +93,8 @@ public class KennisSpel : MonoBehaviour
 
     private void PositiveTransition()
     {
-        Debug.Log("POSITIVE transition");
         UIManager.Instance.OpenPanel(positiveTransitionPanel);
-        if (conditionsSeen < allConditions.Length)
+        if ((conditionsSeen + 1) < allConditions.Length)
         {
             UIManager.Instance.NextPanel = gamePanel;
         } else
@@ -106,11 +106,10 @@ public class KennisSpel : MonoBehaviour
 
     private void NegativeTransition()
     {
-        Debug.Log("NEGATIVE transition");
         wrongConditions.Add(currentCondition.name);
         negativeTransitionPanel.ChangeHeader(currentCondition.name);
         UIManager.Instance.OpenPanel(negativeTransitionPanel);
-        if (currentFaults < maxFaults)
+        if (currentFaults < maxFaults && ((conditionsSeen + 1) < allConditions.Length))
         {
             UIManager.Instance.NextPanel = gamePanel;
         } else
@@ -122,7 +121,6 @@ public class KennisSpel : MonoBehaviour
 
     private void SetupResults()
     {
-        Debug.Log("Showing results");
         resultPanel.ChangeHeader("{Header text}");
         resultPanel.ShowScore((conditionsSeen + 1) - currentFaults);
         resultPanel.ShowWrongAnswers(wrongConditions.ToArray());

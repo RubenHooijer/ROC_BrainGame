@@ -20,6 +20,6 @@ MonoBehaviour:
     een mooi plaatje om te vertellen dat ik leuk ben, zodat ik erbij hoor. Ik kijk
     ook heel vaak wat anderen posten, zodat ik weet wat cool is en welke posts het
     meest worden geliked. Als een foto niet geliked wordt voel ik me naar."
-  icon: {fileID: 21300000, guid: 30848b8ad6de04f4f8ab25091337ba54, type: 3}
+  icon: {fileID: -1150939174632285916, guid: 4543b051336ac7c4e9f72ba8610ca445, type: 3}
   characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
     type: 3}
