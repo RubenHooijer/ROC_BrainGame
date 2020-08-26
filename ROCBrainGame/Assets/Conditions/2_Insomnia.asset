@@ -20,5 +20,5 @@ MonoBehaviour:
     eens weten wat ik \u2018s nachts allemaal doe terwijl dat wat ik echt wil doen
     maar niet lukt! "
   icon: {fileID: 1563787634760702847, guid: 4543b051336ac7c4e9f72ba8610ca445, type: 3}
-  characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
+  _characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
     type: 3}

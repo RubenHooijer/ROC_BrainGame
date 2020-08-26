@@ -22,5 +22,5 @@ MonoBehaviour:
     uit te komen. Maar daarna schaam ik me dan weer voor het smoesje en denk ik dat
     ze me wel nooit meer zullen uitnodigen.
   icon: {fileID: 979485182156880078, guid: 4543b051336ac7c4e9f72ba8610ca445, type: 3}
-  characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
+  _characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
     type: 3}
