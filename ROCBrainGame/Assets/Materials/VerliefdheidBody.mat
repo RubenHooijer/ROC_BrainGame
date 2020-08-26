@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: VerliefdheidBody
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 0858e6f9b0a35214ca7b2e0464d6763d, type: 3}
   m_ShaderKeywords: DR_GRADIENT_ON DR_RIM_ON _CELPRIMARYMODE_SINGLE _UNITYSHADOWMODE_NONE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -100,8 +100,12 @@ Material:
     - _ShadowEdgeSizeExtra: 0.05
     - _SmoothnessTextureChannel: 0
     - _SpecularEnabled: 0
+    - _SpecularFalloff: 1.49
     - _SpecularHighlights: 1
+    - _SpecularSize: 0
     - _SrcBlend: 1
+    - _StepAmount: 2
+    - _StepWidth: 0.667
     - _TextureImpact: 1
     - _UVSec: 0
     - _UnityShadowMode: 0
@@ -116,8 +120,11 @@ Material:
     - _ColorDimExtra: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
     - _ColorDimSteps: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
     - _ColorGradient: {r: 0.93333334, g: 0.7864093, b: 0.25882357, a: 1}
+    - _Emission: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FlatRimColor: {r: 1.3041189, g: 1.3041189, b: 1.3041189, a: 1}
     - _FlatSpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ShadowTint: {r: 0.6509434, g: 0.45750266, b: 0.47504243, a: 1}
+    - _Specular: {r: 1, g: 1, b: 1, a: 1}
     - _UnityShadowColor: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
