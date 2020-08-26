@@ -20,5 +20,5 @@ MonoBehaviour:
     mag milder voor mezelf zijn, dat weet ik wel. Anderen laten me weten dat ze er
     voor mij zijn als er iets is, dat is erg fijn.
   icon: {fileID: -2142170125938040044, guid: 4543b051336ac7c4e9f72ba8610ca445, type: 3}
-  _characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
+  _characterPrefab: {fileID: 5860460358679969098, guid: b2663fd5de8600840a03c1e9305b135a,
     type: 3}

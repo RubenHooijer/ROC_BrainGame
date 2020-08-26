@@ -340,6 +340,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7501177660756939122}
+  - component: {fileID: 2036769242245658577}
   m_Layer: 0
   m_Name: Autisme
   m_TagString: Untagged
@@ -366,6 +367,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2036769242245658577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7501177660756939123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25308ac0066e66c4f9b76738c34d0842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  conditionToTest: {fileID: 0}
+  speechCloud: {fileID: 7207457095238228103}
 --- !u!1001 &2014492184006907250
 PrefabInstance:
   m_ObjectHideFlags: 0

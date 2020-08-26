@@ -21,5 +21,5 @@ MonoBehaviour:
     van allerlei gebeurtenissen op een dag. Bij een teveel aan prikkels trek ik me
     terug, ik heb dan tijd en rust voor mezelf nodig om alle informatie te verwerken."
   icon: {fileID: 8167140803777703786, guid: 4543b051336ac7c4e9f72ba8610ca445, type: 3}
-  _characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
+  _characterPrefab: {fileID: 2036769242245658577, guid: 7d008b332653ef14285f6ab602a5619d,
     type: 3}
