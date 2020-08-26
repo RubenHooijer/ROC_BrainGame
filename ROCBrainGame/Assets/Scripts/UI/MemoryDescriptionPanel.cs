@@ -6,13 +6,13 @@ public class MemoryDescriptionPanel : UIPanel
     [Header("References: ")]
     [SerializeField] private Image conditionIcon;
 
-    private Condition currentCondition;
+    private Condition _currentCondition;
 
     public void AssignCondition(Condition condition)
     {
-        currentCondition = condition;
+        _currentCondition = condition;
         conditionIcon.sprite = condition.icon;
-        condition.Spawn3dCharacter(Vector3.zero);
+        RenderTextureScene.ShowCondition(condition);
 
         Open();
     }
@@ -20,6 +20,5 @@ public class MemoryDescriptionPanel : UIPanel
     public override void Close()
     {
         base.Close();
-        currentCondition?.Discard();
     }
 }

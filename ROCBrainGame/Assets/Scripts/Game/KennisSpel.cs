@@ -63,7 +63,7 @@ public class KennisSpel : MonoBehaviour
         Debug.Log("New controlnumber is " + currentCondition.controlNumber);
 
         //Spawns the 3D character
-        currentCondition.Spawn3dCharacter(Vector3.zero);
+        RenderTextureScene.ShowCondition(currentCondition);
     }
 
     private void CheckNumber(int num)
@@ -88,7 +88,6 @@ public class KennisSpel : MonoBehaviour
                 SetupResults();
             }
         }
-        currentCondition.Discard();
     }
 
     private void PositiveTransition()
