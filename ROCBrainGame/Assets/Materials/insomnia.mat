@@ -104,7 +104,7 @@ Material:
     - _SpecularHighlights: 1
     - _SpecularSize: 0
     - _SrcBlend: 1
-    - _StepAmount: 2
+    - _StepAmount: 1
     - _StepWidth: 0.667
     - _TextureImpact: 1
     - _UVSec: 0

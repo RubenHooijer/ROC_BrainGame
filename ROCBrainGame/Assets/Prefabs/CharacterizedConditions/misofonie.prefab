@@ -163,8 +163,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
@@ -238,8 +236,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "\u2018Het is maar een klein beestje\u2019 AAAAAAH, nee hoor, het is echt
     niet grappig als je een spin voor mijn neus houdt. Ik klim in de gordijnen, gil
     de hele buurt bij elkaar als ik die pootjes zie. Mij zie je dan ook niet vooroplopen
@@ -344,6 +340,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7501177660756939122}
+  - component: {fileID: 4166825339802228434}
   m_Layer: 0
   m_Name: misofonie
   m_TagString: Untagged
@@ -371,6 +368,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4166825339802228434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7501177660756939123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25308ac0066e66c4f9b76738c34d0842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  conditionToTest: {fileID: 0}
+  speechCloud: {fileID: 7207457095238228103}
 --- !u!1001 &1007071045380221523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -378,11 +389,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7501177660756939122}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: bdaf9673a03333d489f7726e6a96a6a8,
-        type: 3}
-      propertyPath: m_Name
-      value: Sitting
-      objectReference: {fileID: 0}
     - target: {fileID: -6057140222963153312, guid: bdaf9673a03333d489f7726e6a96a6a8,
         type: 3}
       propertyPath: m_Controller
@@ -457,6 +463,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: bdaf9673a03333d489f7726e6a96a6a8,
+        type: 3}
+      propertyPath: m_Name
+      value: Sitting
       objectReference: {fileID: 0}
     - target: {fileID: 5443630720975121928, guid: bdaf9673a03333d489f7726e6a96a6a8,
         type: 3}
@@ -718,11 +729,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7501177660756939122}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 0574f4510c4af7749aa4914f0972827a,
-        type: 3}
-      propertyPath: m_Name
-      value: Annoyed Head Shake
-      objectReference: {fileID: 0}
     - target: {fileID: -6057140222963153312, guid: 0574f4510c4af7749aa4914f0972827a,
         type: 3}
       propertyPath: m_Controller
@@ -797,6 +803,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0574f4510c4af7749aa4914f0972827a,
+        type: 3}
+      propertyPath: m_Name
+      value: Annoyed Head Shake
       objectReference: {fileID: 0}
     - target: {fileID: 302833177937497317, guid: 0574f4510c4af7749aa4914f0972827a,
         type: 3}

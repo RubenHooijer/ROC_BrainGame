@@ -1266,7 +1266,7 @@ MonoBehaviour:
   m_text: 'Het goede antwoord was \n<size=120><color=#3DCB29><b>Hematofobie</b></color></size>
 
     Jij
-    raadde \n<size=120><color=#000><b>Arachnofobie</b></size>'
+    koos \n<size=120><color=#000><b>Arachnofobie</b></size>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: be5609a49873c754c812cc21d59ae855, type: 2}
   m_sharedMaterial: {fileID: -4625409242502498578, guid: be5609a49873c754c812cc21d59ae855,
@@ -1312,7 +1312,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 48
+  m_firstOverflowCharacterIndex: 46
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -1336,7 +1336,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 749770680}
-    characterCount: 60
+    characterCount: 58
     spriteCount: 0
     spaceCount: 9
     wordCount: 8

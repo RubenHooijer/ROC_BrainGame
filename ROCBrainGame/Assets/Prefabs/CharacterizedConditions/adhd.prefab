@@ -64,8 +64,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
@@ -139,8 +137,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "\u2018Het is maar een klein beestje\u2019 AAAAAAH, nee hoor, het is echt
     niet grappig als je een spin voor mijn neus houdt. Ik klim in de gordijnen, gil
     de hele buurt bij elkaar als ik die pootjes zie. Mij zie je dan ook niet vooroplopen
@@ -245,6 +241,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3684228210201472908}
+  - component: {fileID: 3693866622726466821}
   m_Layer: 0
   m_Name: adhd
   m_TagString: Untagged
@@ -272,6 +269,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3693866622726466821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3684228210201472909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25308ac0066e66c4f9b76738c34d0842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  conditionToTest: {fileID: 0}
+  speechCloud: {fileID: 4606644677636462813}
 --- !u!1 &5096907487584142032
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,11 +479,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3684228210201472908}
     m_Modifications:
-    - target: {fileID: 4124720140712694158, guid: 7bdd1c46d05f01b4f9b59d9954637fc3,
-        type: 3}
-      propertyPath: m_Name
-      value: spreekgestoelte
-      objectReference: {fileID: 0}
     - target: {fileID: 1109762124206482333, guid: 7bdd1c46d05f01b4f9b59d9954637fc3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -528,6 +534,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4124720140712694158, guid: 7bdd1c46d05f01b4f9b59d9954637fc3,
+        type: 3}
+      propertyPath: m_Name
+      value: spreekgestoelte
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bdd1c46d05f01b4f9b59d9954637fc3, type: 3}
 --- !u!4 &6181788828237903910 stripped
@@ -543,11 +554,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3684228210201472908}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 0b31b28bd7bb6064aadf0737d9111a7b,
-        type: 3}
-      propertyPath: m_Name
-      value: Silly Dancing
-      objectReference: {fileID: 0}
     - target: {fileID: -6287970482256223789, guid: 0b31b28bd7bb6064aadf0737d9111a7b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -627,6 +633,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0b31b28bd7bb6064aadf0737d9111a7b,
+        type: 3}
+      propertyPath: m_Name
+      value: Silly Dancing
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b31b28bd7bb6064aadf0737d9111a7b, type: 3}

@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 710310211787108329}
+  - component: {fileID: 8285833873443590514}
   m_Layer: 0
   m_Name: depressie
   m_TagString: Untagged
@@ -34,6 +35,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8285833873443590514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710310211787108334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25308ac0066e66c4f9b76738c34d0842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  conditionToTest: {fileID: 0}
+  speechCloud: {fileID: 4236683215370565966}
 --- !u!1 &4529906599077656245
 GameObject:
   m_ObjectHideFlags: 0
@@ -97,8 +112,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "\u2018Het is maar een klein beestje\u2019 AAAAAAH, nee hoor, het is echt
     niet grappig als je een spin voor mijn neus houdt. Ik klim in de gordijnen, gil
     de hele buurt bij elkaar als ik die pootjes zie. Mij zie je dan ook niet vooroplopen
@@ -357,8 +370,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
@@ -376,11 +387,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 710310211787108329}
     m_Modifications:
-    - target: {fileID: 2490184486077157214, guid: af77e3fbebc160e4298f1a34d71862ba,
-        type: 3}
-      propertyPath: m_Name
-      value: propBed
-      objectReference: {fileID: 0}
     - target: {fileID: 1501299841236974925, guid: af77e3fbebc160e4298f1a34d71862ba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -451,6 +457,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 2490184486077157214, guid: af77e3fbebc160e4298f1a34d71862ba,
+        type: 3}
+      propertyPath: m_Name
+      value: propBed
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af77e3fbebc160e4298f1a34d71862ba, type: 3}
 --- !u!4 &4386711466460649728 stripped
@@ -466,11 +477,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 710310211787108329}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: f88620bd2c7e73a4fa8fc46eb2ab84d1,
-        type: 3}
-      propertyPath: m_Name
-      value: Orc Idle
-      objectReference: {fileID: 0}
     - target: {fileID: -6057140222963153312, guid: f88620bd2c7e73a4fa8fc46eb2ab84d1,
         type: 3}
       propertyPath: m_Controller
@@ -545,6 +551,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f88620bd2c7e73a4fa8fc46eb2ab84d1,
+        type: 3}
+      propertyPath: m_Name
+      value: Orc Idle
       objectReference: {fileID: 0}
     - target: {fileID: 302833177937497317, guid: f88620bd2c7e73a4fa8fc46eb2ab84d1,
         type: 3}

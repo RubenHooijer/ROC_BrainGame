@@ -25,5 +25,5 @@ MonoBehaviour:
     gewisseld van school, maar t is goed gekomen met hem. Hij is reisleider en kliminstructeur
     geworden, en reist de hele wereld rond.\r\n"
   icon: {fileID: 5373108764099556205, guid: 4543b051336ac7c4e9f72ba8610ca445, type: 3}
-  _characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
+  _characterPrefab: {fileID: 3693866622726466821, guid: 74d20013ac7ad64479e4ec76e72db24c,
     type: 3}
