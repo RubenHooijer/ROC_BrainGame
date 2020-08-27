@@ -2192,7 +2192,6 @@ GameObject:
   m_Component:
   - component: {fileID: 213722750609884547}
   - component: {fileID: 7473248195176504719}
-  - component: {fileID: 5746973707848546245}
   m_Layer: 5
   m_Name: ControlNumberInput
   m_TagString: Untagged
@@ -2229,34 +2228,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6599263199028749297}
   m_CullTransparentMesh: 0
---- !u!114 &5746973707848546245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6599263199028749297}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.3340696, g: 1, b: 0, a: 1}
-  m_RaycastTarget: 0
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 1
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 1
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &6721971182723723960
 GameObject:
   m_ObjectHideFlags: 0
@@ -2525,6 +2496,7 @@ GameObject:
   - component: {fileID: 7027358552693784340}
   - component: {fileID: 259701649249228356}
   - component: {fileID: 8631596393653597122}
+  - component: {fileID: 960649012857659168}
   m_Layer: 5
   m_Name: EnterControlNumberButton
   m_TagString: Untagged
@@ -2641,6 +2613,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &960649012857659168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7263812405030347281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d323ca407f73d344a22c88057eddbd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8385265447066684669
 GameObject:
   m_ObjectHideFlags: 0
