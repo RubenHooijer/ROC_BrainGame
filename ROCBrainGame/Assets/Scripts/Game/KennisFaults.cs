@@ -1,9 +1,13 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class KennisFaults : MonoBehaviour
 {
+    [Header("Settings: ")]
+    [SerializeField] private Color _faultMadeColor;
+
     [Header("References: ")]
-    [SerializeField] private GameObject[] faults;
+    [SerializeField] private Image[] _faults;
 
     private void Awake()
     {
@@ -17,10 +21,10 @@ public class KennisFaults : MonoBehaviour
 
     private void UpdateFaults()
     {
-        for (int i = 0; i < faults.Length; i++)
+        for (int i = 0; i < _faults.Length; i++)
         {
-            if (faults[i].activeSelf) continue;
-            faults[i].SetActive(true);
+            if (_faults[i].color == _faultMadeColor) continue;
+            _faults[i].color = _faultMadeColor;
             return;
         }
     }
