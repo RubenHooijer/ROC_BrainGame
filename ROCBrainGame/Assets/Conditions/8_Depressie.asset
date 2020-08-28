@@ -21,5 +21,5 @@ MonoBehaviour:
     enige die hem kan zien. Sinds ik bij de huisarts ben geweest snap ik beter wat
     er met mij is, dat voelt goed."
   icon: {fileID: 6225749930511447423, guid: 4543b051336ac7c4e9f72ba8610ca445, type: 3}
-  _characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
+  _characterPrefab: {fileID: 8285833873443590514, guid: 0be7c5eaddd8181488ee2f134e7ee36a,
     type: 3}

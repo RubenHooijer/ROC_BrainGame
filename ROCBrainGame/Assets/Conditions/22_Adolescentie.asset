@@ -21,5 +21,5 @@ MonoBehaviour:
     als ik niet uit bed kan komen moeten ze me inderdaad een paar keer roepen, maar
     ik ben dan ook zo moe. Nog 10 seconden en dan ga ik mijn bed uit 1,2,3,4,5,6,7,8,8,9,9,9,9,9,9.....
   icon: {fileID: -249828289109487541, guid: 4543b051336ac7c4e9f72ba8610ca445, type: 3}
-  _characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
+  _characterPrefab: {fileID: 2703604471355888016, guid: 9990afd69892d564ba5f216da84b3422,
     type: 3}
