@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
@@ -18,9 +19,26 @@ public class SceneLoader : MonoBehaviour
         }
     }
 
-    public static void LoadScene(Scenes scene)
+    public static void LoadScene(Scenes scene, Transitions transition = Transitions.BlueBrain)
     {
-        SceneManager.LoadScene((int)scene);
+        TransitionManager.DoTransition(transition, () => instance.StartCoroutine(ieLoadScene((int)scene)), false);
+    }
+
+    private static IEnumerator ieLoadScene(int buildindex)
+    {
+        AsyncOperation asyncOperation = SceneManager.LoadSceneAsync(buildindex);
+        asyncOperation.allowSceneActivation = false;
+
+        while (!asyncOperation.isDone)
+        {
+            if (asyncOperation.progress >= 0.9f)
+            {
+                asyncOperation.allowSceneActivation = true;
+                TransitionManager.CloseTransition();
+            }
+
+            yield return null;
+        }
     }
 }
 

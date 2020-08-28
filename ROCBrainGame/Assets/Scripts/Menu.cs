@@ -4,11 +4,11 @@ public class Menu : MonoBehaviour
 {
     public void GoToKennisSpel()
     {
-        SceneLoader.LoadScene(Scenes.KennisSpel);
+        SceneLoader.LoadScene(Scenes.KennisSpel, Transitions.PinkBrain);
     }
 
     public void GoToMemorySpel()
     {
-        SceneLoader.LoadScene(Scenes.MemorySpel);
+        SceneLoader.LoadScene(Scenes.MemorySpel, Transitions.BlueBrain);
     }
 }

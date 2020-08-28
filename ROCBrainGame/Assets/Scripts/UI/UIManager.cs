@@ -2,7 +2,7 @@
 
 public class UIManager : GenericSingleton<UIManager, IUIManager>, IUIManager
 {
-    public IUIPanel NextPanel { set => nextPanel = value; }
+    public IUIPanel NextPanel { get => nextPanel; set => nextPanel = value; }
     private IUIPanel nextPanel;
 
     private IUIPanel currentPanel;
@@ -24,6 +24,6 @@ public class UIManager : GenericSingleton<UIManager, IUIManager>, IUIManager
 
 public interface IUIManager
 {
-    IUIPanel NextPanel { set; }
+    IUIPanel NextPanel { get; set; }
     void OpenPanel(IUIPanel panel);
 }
