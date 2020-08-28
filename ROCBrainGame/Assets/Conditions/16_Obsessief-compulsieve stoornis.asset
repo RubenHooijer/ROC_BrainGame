@@ -23,5 +23,5 @@ MonoBehaviour:
     Sinds ik hierover heb gepraat met een klasgenoot die ik vertrouw vind ik het
     al minder erg en heb ik minder vaak zo\u2019n opdringerige gedachte."
   icon: {fileID: -5299748923283648154, guid: 4543b051336ac7c4e9f72ba8610ca445, type: 3}
-  characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
+  _characterPrefab: {fileID: 1295911384666677885, guid: 29656f81337b7e24fa45598d74ccda86,
     type: 3}

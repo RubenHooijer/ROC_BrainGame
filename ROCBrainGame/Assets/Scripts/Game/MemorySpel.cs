@@ -8,17 +8,21 @@ public class MemorySpel : MonoBehaviour
 {
 
     [Header("References: ")]
-    [SerializeField] private Condition[] allConditions;
+    [SerializeField] private Condition[] _allConditions;
 
     [Space()]
-    [SerializeField] private Slider setupSlider;
-    [SerializeField] private ConditionButton conditionButtonPrefab;
-    [SerializeField] private Transform buttonGroup;
+    [SerializeField] private Slider _setupSlider;
+    [SerializeField] private ConditionButton _conditionButtonPrefab;
+    [SerializeField] private Transform _buttonGroup;
 
     [Space()]
-    [SerializeField] private MemoryDescriptionPanel memoryDescriptionPanel;
-    [SerializeField] private MemoryInputPanel memoryInputPanel;
-    [SerializeField] private GameObject checkAnswersButton;
+    [SerializeField] private MemoryDescriptionPanel _memoryDescriptionPanel;
+    [SerializeField] private MemoryInputPanel _memoryInputPanel;
+    [SerializeField] private GameObject _checkAnswersButton;
+
+    [Space()]
+    [SerializeField] private Sprite _buttonCorrect;
+    [SerializeField] private Sprite _buttonWrong;
 
 
     private int amountOfConditions;
@@ -26,11 +30,11 @@ public class MemorySpel : MonoBehaviour
 
     public void SetupGame()
     {
-        amountOfConditions = (int)setupSlider.value;
+        amountOfConditions = (int)_setupSlider.value;
 
         List<int> conditionOrder = new List<int>();
 
-        for (int i = 0; i < allConditions.Length; i++)
+        for (int i = 0; i < _allConditions.Length; i++)
         {
             conditionOrder.Add(i);
         }
@@ -39,9 +43,9 @@ public class MemorySpel : MonoBehaviour
 
         for (int i = 0; i < amountOfConditions; i++)
         {
-            var obj = Instantiate(conditionButtonPrefab, buttonGroup);
-            obj.Condition = allConditions[conditionOrder[i]];
-            obj.button.onClick.AddListener(() => memoryDescriptionPanel.AssignCondition(obj.Condition));
+            var obj = Instantiate(_conditionButtonPrefab, _buttonGroup);
+            obj.Condition = _allConditions[conditionOrder[i]];
+            obj.button.onClick.AddListener(() => _memoryDescriptionPanel.AssignCondition(obj.Condition));
 
             spawnedButtons.Add(obj);
         }
@@ -55,7 +59,7 @@ public class MemorySpel : MonoBehaviour
         {
             var button = spawnedButtons[i];
             button.button.onClick.RemoveAllListeners();
-            button.button.onClick.AddListener(() => memoryInputPanel.Show(button));
+            button.button.onClick.AddListener(() => _memoryInputPanel.Show(button));
         }
 
         Numpad.OnEnterNumber += OnEnterNumber;
@@ -65,7 +69,7 @@ public class MemorySpel : MonoBehaviour
     private IEnumerator ButtonsFilledCheck()
     {
         yield return new WaitForEndOfFrame();
-        checkAnswersButton.SetActive(CheckIfAllButtonsAreFilledIn());
+        _checkAnswersButton.SetActive(CheckIfAllButtonsAreFilledIn());
     }
 
     private bool CheckIfAllButtonsAreFilledIn()
@@ -93,7 +97,7 @@ public class MemorySpel : MonoBehaviour
         for (int i = 0; i < spawnedButtons.Count; i++)
         {
             var button = spawnedButtons[i];
-            button.buttonBackground.color = (button.IsCorrect()) ? Color.green : Color.red;
+            button.buttonBackground.sprite = (button.IsCorrect()) ? _buttonCorrect : _buttonWrong;
         }
     }
 
@@ -109,7 +113,7 @@ public class MemorySpel : MonoBehaviour
 
     private void OnEnterNumber(int x)
     {
-        memoryInputPanel.Close();
+        _memoryInputPanel.Close();
         StartCoroutine(ButtonsFilledCheck());
     }
 }

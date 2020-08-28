@@ -22,5 +22,5 @@ MonoBehaviour:
     zeg dat ik nog mag groeien en nog niet alles hoef te kunnen. Even diep ademhalen
     en stilstaan bij mijn successen. Ik ben goed zoals ik ben!"
   icon: {fileID: -6406243201404138845, guid: 4543b051336ac7c4e9f72ba8610ca445, type: 3}
-  characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
+  _characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
     type: 3}

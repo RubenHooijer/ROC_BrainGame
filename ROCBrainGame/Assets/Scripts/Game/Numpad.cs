@@ -30,7 +30,7 @@ public class Numpad : MonoBehaviour
         if (selectedNumber != 0) numberButtonList[selectedNumber].color = Color.white;
 
         selectedNumber = number;
-        numberButtonList[selectedNumber].color = Color.yellow;
+        numberButtonList[selectedNumber].color = selectedButtonColor;
     }
 
     private void DeselectButton(int x)

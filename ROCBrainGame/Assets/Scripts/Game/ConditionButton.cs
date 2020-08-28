@@ -11,6 +11,7 @@ public class ConditionButton : MonoBehaviour
     public Button button;
     public Image buttonBackground;
     [SerializeField] private Image iconImage;
+    [SerializeField] private GameObject numberBackground;
     [SerializeField] private TextMeshProUGUI numberText;
 
     public Condition Condition 
@@ -33,7 +34,7 @@ public class ConditionButton : MonoBehaviour
     {
         currentNumber = number;
         numberText.SetText(number.ToString());
-        numberText.gameObject.SetActive(true);
+        numberBackground.SetActive(true);
     }
 
     public bool IsCorrect()

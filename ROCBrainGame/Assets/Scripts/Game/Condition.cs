@@ -10,21 +10,16 @@ public class Condition : ScriptableObject
 
     [Space()]
     public Sprite icon = null;
-    [SerializeField] private CharacterizedCondition characterPrefab;
+    [SerializeField] 
+    private CharacterizedCondition _characterPrefab;
 
-    private CharacterizedCondition spawnedObject;
-
-    public void Spawn3dCharacter(Vector3 position)
+    public GameObject Spawn3dCharacter(Vector3 position)
     {
-        if (characterPrefab == null) return;
-        spawnedObject = Instantiate(characterPrefab, position, Quaternion.identity);
+        if (_characterPrefab == null) return null;
+        var spawnedObject = Instantiate(_characterPrefab, position, Quaternion.identity);
         spawnedObject.SetSpeechCloud(description);
-    }
 
-    public void Discard()
-    {
-        if (spawnedObject == null) return;
-        Destroy(spawnedObject.gameObject);
+        return spawnedObject.gameObject;
     }
 
 #if UNITY_EDITOR

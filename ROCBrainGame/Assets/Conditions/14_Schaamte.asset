@@ -22,5 +22,5 @@ MonoBehaviour:
     moet en probeer dan zo \u2018onzichtbaar\u2019 mogelijk alles op te rapen. Maar
     wel met een kop als een boei."
   icon: {fileID: -299148188451899570, guid: 4543b051336ac7c4e9f72ba8610ca445, type: 3}
-  characterPrefab: {fileID: 2468461766927010313, guid: b5e5e82cff2262b4c860540ac64854d6,
+  _characterPrefab: {fileID: 8841097510422283275, guid: c20fc5a96829e5946b07ead3dc0d27b4,
     type: 3}
