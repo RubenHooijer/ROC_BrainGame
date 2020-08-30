@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Extensions.List;
+using TMPro;
 
 public class KennisSpel : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class KennisSpel : MonoBehaviour
     [Header("References: ")]
     [SerializeField] private Condition[] allConditions;
     [SerializeField] private KennisGamePanel gamePanel;
+    [SerializeField] private TextMeshProUGUI description;
     [SerializeField] private UIPanel positiveTransitionPanel;
     [SerializeField] private KennisWrongTransition negativeTransitionPanel;
     [SerializeField] private KennisResultPanel resultPanel;
@@ -64,10 +66,13 @@ public class KennisSpel : MonoBehaviour
 
         currentCondition = allConditions[conditionOrder[conditionsSeen]];
 
+#if UNITY_EDITOR
         Debug.Log("New controlnumber is " + currentCondition.controlNumber);
+#endif
 
         //Spawns the 3D character
         RenderTextureScene.ShowCondition(currentCondition);
+        description.SetText(currentCondition.description);
     }
 
     private void CheckNumber(int num)
@@ -122,7 +127,7 @@ public class KennisSpel : MonoBehaviour
     private void SetupResults()
     {
         resultPanel.ChangeHeader("{Header text}");
-        resultPanel.ShowScore((conditionsSeen + 1) - currentFaults);
+        resultPanel.ShowScore(((conditionsSeen + 1) - currentFaults).ToString());
         resultPanel.ShowWrongAnswers(wrongConditions.ToArray());
     }
 

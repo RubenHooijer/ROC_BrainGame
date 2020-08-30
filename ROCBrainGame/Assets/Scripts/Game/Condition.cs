@@ -17,7 +17,6 @@ public class Condition : ScriptableObject
     {
         if (_characterPrefab == null) return null;
         var spawnedObject = Instantiate(_characterPrefab, position, Quaternion.identity);
-        spawnedObject.SetSpeechCloud(description);
 
         return spawnedObject.gameObject;
     }

@@ -15,9 +15,9 @@ public class KennisResultPanel : UIPanel, IChangeableHeader, IShowResults
         messageText.text = headerText; 
     }
 
-    public void ShowScore(int score)
+    public void ShowScore(string score)
     {
-        scoreText.text = score.ToString();
+        scoreText.text = score;
     }
 
     public void ShowWrongAnswers(params string[] wrongAnswers)
