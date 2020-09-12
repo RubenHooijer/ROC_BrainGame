@@ -19,6 +19,7 @@ public class MemorySpel : MonoBehaviour
     [SerializeField] private MemoryDescriptionPanel _memoryDescriptionPanel;
     [SerializeField] private MemoryInputPanel _memoryInputPanel;
     [SerializeField] private GameObject _checkAnswersButton;
+    [SerializeField] private KennisResultPanel _resultPanel;
 
     [Space()]
     [SerializeField] private Sprite _buttonCorrect;
@@ -94,11 +95,24 @@ public class MemorySpel : MonoBehaviour
     {
         MakeAllButtonsNonInteractable();
 
-        for (int i = 0; i < spawnedButtons.Count; i++)
+        int total = spawnedButtons.Count;
+        int correct = 0;
+
+        for (int i = 0; i < total; i++)
         {
             var button = spawnedButtons[i];
-            button.buttonBackground.sprite = (button.IsCorrect()) ? _buttonCorrect : _buttonWrong;
+            bool isCorrect = button.IsCorrect();
+            button.buttonBackground.sprite = (isCorrect) ? _buttonCorrect : _buttonWrong;
+
+            correct = (isCorrect) ? correct + 1 : correct;
         }
+
+        SetupResults(correct, total);
+    }
+
+    public void SetupResults(int correct, int total)
+    {
+        _resultPanel.ShowScore($"{correct}\n{total}");
     }
 
     public void BackToMenu()

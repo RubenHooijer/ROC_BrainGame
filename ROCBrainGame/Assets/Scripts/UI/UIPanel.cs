@@ -32,7 +32,7 @@ public class UIPanel : MonoBehaviour, IUIPanel
 
     public virtual void Close()
     {
-        if (UIManager.Instance.NextPanel.UseTransition)
+        if (UIManager.Instance.NextPanel != null && UIManager.Instance.NextPanel.UseTransition)
         {
             TransitionManager.OnPeakTransition += DeactivateGameobject;
         } else
@@ -57,5 +57,5 @@ public interface IChangeableHeader
 public interface IShowResults
 {
     void ShowWrongAnswers(params string[] wrongAnswers);
-    void ShowScore(int score);
+    void ShowScore(string score);
 }
