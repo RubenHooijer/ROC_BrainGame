@@ -100,12 +100,12 @@ Material:
     - _ShadowEdgeSizeExtra: 0.05
     - _SmoothnessTextureChannel: 0
     - _SpecularEnabled: 0
-    - _SpecularFalloff: 1.49
+    - _SpecularFalloff: 2
     - _SpecularHighlights: 1
     - _SpecularSize: 0
     - _SrcBlend: 1
-    - _StepAmount: 2
-    - _StepWidth: 0.667
+    - _StepAmount: 1
+    - _StepWidth: 1
     - _TextureImpact: 1
     - _UVSec: 0
     - _UnityShadowMode: 0
